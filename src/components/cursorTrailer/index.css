@@ -1,0 +1,25 @@
+.secondary-cursor {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid white;
+    overflow: hidden;
+    position: fixed;
+    left:  0px;
+    top: 0px;
+    z-index: 100000;
+    pointer-events: none;
+}
+
+.main-cursor {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    left:  0px;
+    top: 0px;
+    z-index: 100001;
+    pointer-events: none;
+}
